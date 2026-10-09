@@ -1,0 +1,59 @@
+{
+  "roc_auc": 0.6756,
+  "pr_auc": 0.4558,
+  "brier_raw": 0.1995,
+  "brier_calibrated": 0.201,
+  "base_rate": 0.319,
+  "best_params": {
+    "learning_rate": 0.03564363384829607,
+    "num_leaves": 11,
+    "min_child_samples": 44,
+    "subsample": 0.8885285388399815,
+    "colsample_bytree": 0.5428173584861098,
+    "reg_lambda": 0.026817968089577083
+  },
+  "n_trials": 20,
+  "shap_importance": {
+    "ev_total": 0.3093,
+    "plan": 0.1768,
+    "feature_uses": 0.068,
+    "ev_30d": 0.0663,
+    "ev_prev_30d": 0.0611,
+    "tenure_days": 0.0205,
+    "feature_ratio": 0.0183,
+    "usage_momentum": 0.0167,
+    "tickets": 0.014,
+    "country": 0.0109,
+    "ev_7d": 0.0107,
+    "failed_payments": 0.009,
+    "days_since_last_event": 0.0042,
+    "acq_channel": 0.0022
+  },
+  "drift_demo": [
+    {
+      "feature": "ev_30d",
+      "psi": 4.9523,
+      "status": "ALERT"
+    },
+    {
+      "feature": "failed_payments",
+      "psi": 3.8919,
+      "status": "ALERT"
+    },
+    {
+      "feature": "ev_total",
+      "psi": 0.0047,
+      "status": "ok"
+    },
+    {
+      "feature": "tenure_days",
+      "psi": 0.0041,
+      "status": "ok"
+    },
+    {
+      "feature": "feature_uses",
+      "psi": 0.004,
+      "status": "ok"
+    }
+  ]
+}
