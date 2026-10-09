@@ -1,4 +1,5 @@
-"""Synthetic subscription-business data (users + event log) generated with Polars.
+"""
+Synthetic subscription-business data (users + event log) generated with Polars.
 
 Churn is driven by *behavioural* signals hidden in the event log (declining usage,
 support tickets, failed payments), so feature engineering genuinely matters.
