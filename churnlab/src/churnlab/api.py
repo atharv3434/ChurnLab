@@ -1,4 +1,5 @@
 """FastAPI service: calibrated churn probability + per-request SHAP reasons."""
+
 from __future__ import annotations
 import pickle
 from contextlib import asynccontextmanager
