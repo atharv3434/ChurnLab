@@ -1,4 +1,5 @@
 """Feature engineering in DuckDB SQL over Polars frames (zero-copy via Arrow)."""
+
 from __future__ import annotations
 import duckdb
 import polars as pl
