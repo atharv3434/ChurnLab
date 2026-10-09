@@ -1,4 +1,5 @@
 """Population Stability Index (PSI) drift monitor for numeric features."""
+
 from __future__ import annotations
 import numpy as np
 import polars as pl
